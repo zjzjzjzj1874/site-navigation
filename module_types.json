@@ -1,0 +1,22 @@
+[
+  {
+    "key": "common",
+    "value": "通用网站",
+    "description": "通用的网站链接"
+  },
+  {
+    "key": "dev",
+    "value": "开发网站",
+    "description": "开发环境相关的网站"
+  },
+  {
+    "key": "test",
+    "value": "测试网站",
+    "description": "测试环境相关的网站"
+  },
+  {
+    "key": "prod",
+    "value": "生产网站",
+    "description": "生产环境相关的网站"
+  }
+]

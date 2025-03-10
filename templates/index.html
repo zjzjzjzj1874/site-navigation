@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站导航</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.svg">
+</head>
+<body>
+    <div class="header">
+        <h1 class="site-title">网站导航</h1>
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="搜索网站..." onkeyup="searchSites(this.value)">
+        </div>
+        <button class="add-btn" onclick="showAddModal()">添加网站</button>
+    </div>
+
+    <div id="modules"></div>
+
+    <div id="addModal" class="modal">
+        <div class="modal-content">
+            <h2 id="modalTitle">添加网站</h2>
+            <input type="hidden" id="siteId">
+            <div class="form-group">
+                <label>网站名称<span class="required">*</span></label>
+                <input type="text" id="siteName" required>
+            </div>
+            <div class="form-group">
+                <label>网站地址<span class="required">*</span></label>
+                <input type="url" id="siteUrl" required>
+            </div>
+            <div class="form-group">
+                <label>网站描述</label>
+                <textarea id="siteDesc" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label>所属模块<span class="required">*</span></label>
+                <select id="siteModule"></select>
+            </div>
+            <div class="form-group">
+                <label>图标（URL或表情）</label>
+                <input type="text" id="siteIcon" placeholder="输入图片URL或表情符号">
+            </div>
+            <div class="form-group">
+                <label>Host配置</label>
+                <textarea id="siteHost" rows="3" placeholder="每行一个Host配置，例如：
+127.0.0.1 example.com"></textarea>
+            </div>
+            <div class="form-group">
+                <label>排序值</label>
+                <input type="number" id="siteSort" value="0" min="0" placeholder="数值越大排序越靠前">
+            </div>
+            <div class="modal-buttons">
+                <button class="cancel" onclick="hideAddModal()">取消</button>
+                <button class="submit" id="submitBtn" onclick="submitSite()">确定</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "44399:44399"
+    volumes:
+      - type: bind
+        source: /home/ubuntu_admin/sites.json
+        target: /app/sites.json
+        read_only: false
+      - type: bind
+        source: /home/ubuntu_admin/module_types.json
+        target: /app/module_types.json
+        read_only: false
+    environment:
+      - GIN_MODE=release
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://localhost:44399/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

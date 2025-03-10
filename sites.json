@@ -1,0 +1,212 @@
+[
+  {
+    "id": "1737515454157678000",
+    "name": "Jenkins",
+    "url": "http://10.8.25.11:8080",
+    "description": "Jenkins部署地址",
+    "module": "common",
+    "icon": "http://10.8.25.11:8080/static/5154fbe2/favicon.svg",
+    "host": "",
+    "sort": 100
+  },
+  {
+    "id": "1737515521523891000",
+    "name": "研发文档",
+    "url": "http://10.8.25.11:13000",
+    "description": "研发相关文档，配置文档等\n研发相关文档，配置文档等",
+    "module": "common",
+    "icon": "http://10.8.25.11:13000/favicon-32x32.png",
+    "host": "",
+    "sort": 40
+  },
+  {
+    "id": "1737515624439134000",
+    "name": "堡垒机",
+    "url": "https://jms.qixincha.com",
+    "description": "jumpServer堡垒机",
+    "module": "common",
+    "icon": "https://jms.qixincha.com/static/img/facio.ico",
+    "host": "124.70.103.48 jms.qixincha.com",
+    "sort": 70
+  },
+  {
+    "id": "1737515693447956000",
+    "name": "客户中台",
+    "url": "https://crm.qixincha.com/",
+    "description": "客户中台",
+    "module": "prod",
+    "icon": "https://crm.qixincha.com/favicon.ico",
+    "host": "",
+    "sort": 0
+  },
+  {
+    "id": "1737515832547951000",
+    "name": "监管版客户端",
+    "url": "https://scana.yunaq.com/",
+    "description": "监管版客户端",
+    "module": "prod",
+    "icon": "https://scana.yunaq.com/favicon/favicon.ico",
+    "host": "",
+    "sort": 0
+  },
+  {
+    "id": "1737515871460317000",
+    "name": "禅道",
+    "url": "https://zentao.qixincha.com",
+    "description": "禅道任务管理系统",
+    "module": "common",
+    "icon": "https://zentao.qixincha.com/favicon.ico",
+    "host": "",
+    "sort": 31
+  },
+  {
+    "id": "1737515999747116000",
+    "name": "EFK-Prod",
+    "url": "https://efk.qixincha.com",
+    "description": "生产环境EFK日志系统",
+    "module": "common",
+    "icon": "https://efk.qixincha.com/ui/favicons/favicon.svg",
+    "host": "",
+    "sort": 28
+  },
+  {
+    "id": "1737516066397032000",
+    "name": "EFK-Dev",
+    "url": "http://efk-dev.qixincha.com/",
+    "description": "开发环境日志系统\n生产环境EFK日志系统\n用户：elastic\n密码：1o308g62D0Qu8ityt3U0SltZ",
+    "module": "common",
+    "icon": "http://efk-dev.qixincha.com/ui/favicons/favicon.svg",
+    "host": "",
+    "sort": 2
+  },
+  {
+    "id": "1737516152607987000",
+    "name": "护架后台",
+    "url": "http://dev-newkms.qixincha.com",
+    "description": "护架后台",
+    "module": "dev",
+    "icon": "http://dev-newkms.qixincha.com/favicon.ico",
+    "host": "",
+    "sort": 10
+  },
+  {
+    "id": "1737516200575698000",
+    "name": "通审后台",
+    "url": "http://dev-coaudit.qixincha.com/",
+    "description": "通审后台",
+    "module": "dev",
+    "icon": "http://dev-coaudit.qixincha.com/favicon.ico",
+    "host": "",
+    "sort": 0
+  },
+  {
+    "id": "1737516262282678000",
+    "name": "通审后台",
+    "url": "http://test-coaudit.qixincha.com/",
+    "description": "测试环境 通审后台",
+    "module": "test",
+    "icon": "http://test-coaudit.qixincha.com/favicon.ico",
+    "host": "120.46.193.250 test-coaudit.qixincha.com\n120.46.193.250 test-coauditapi.qixincha.com",
+    "sort": 0
+  },
+  {
+    "id": "1737516309544966000",
+    "name": "护架后台",
+    "url": "http://test-newkms.qixincha.com",
+    "description": "测试环境 护架后台",
+    "module": "test",
+    "icon": "http://test-newkms.qixincha.com/favicon.ico",
+    "host": "120.46.193.250 test-newkms.qixincha.com\n120.46.193.250 test-newkmsapi.qixincha.com",
+    "sort": 10
+  },
+  {
+    "id": "1737516354869650000",
+    "name": "护架后台",
+    "url": "https://coaudit.qixincha.com/",
+    "description": "生产环境 护架后台",
+    "module": "prod",
+    "icon": "https://newkms.qixincha.com/favicon.ico",
+    "host": "",
+    "sort": 0
+  },
+  {
+    "id": "1737516394214264000",
+    "name": "通审后台",
+    "url": "https://coaudit.qixincha.com/",
+    "description": "生产环境 通审后台",
+    "module": "prod",
+    "icon": "https://coaudit.qixincha.com/favicon.ico",
+    "host": "",
+    "sort": 0
+  },
+  {
+    "id": "1737516637418766000",
+    "name": "华为云",
+    "url": "https://console.huaweicloud.com/",
+    "description": "华为云控制台",
+    "module": "common",
+    "icon": "https://res.hc-cdn.com/console-ui-common/default/favicon.ico",
+    "host": "",
+    "sort": 76
+  },
+  {
+    "id": "1737516694658923000",
+    "name": "Gitlab",
+    "url": "https://gitlab.intra.knownsec.com/weixin/",
+    "description": "Gitlab代码仓库",
+    "module": "common",
+    "icon": "https://gitlab.intra.knownsec.com/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png",
+    "host": "",
+    "sort": 5
+  },
+  {
+    "id": "1737528713743290000",
+    "name": "客户中台",
+    "url": "http://dev-crm.qixincha.com",
+    "description": "客户中台",
+    "module": "dev",
+    "icon": "http://dev-crm.qixincha.com/favicon.ico",
+    "host": "120.46.193.250 dev-crm-api.qixincha.com\n120.46.193.250 dev-crm.qixincha.com",
+    "sort": 0
+  },
+  {
+    "id": "1737531412195587063",
+    "name": "开发者文档",
+    "url": "http://docsify.qixincha.com/#/",
+    "description": "开发者文本审核",
+    "module": "common",
+    "icon": "http://docsify.qixincha.com/title.ico",
+    "host": "",
+    "sort": 5
+  },
+  {
+    "id": "1737531645087515431",
+    "name": "企业版在线文档",
+    "url": "https://scana.yunaq.com/ecmc-docs/",
+    "description": "企业版对外在线文档",
+    "module": "common",
+    "icon": "https://scana.yunaq.com/ecmc-docs/title.ico",
+    "host": "",
+    "sort": 52
+  },
+  {
+    "id": "1737532761587698000",
+    "name": "引擎",
+    "url": "http://engine-test.qixincha.com",
+    "description": "引擎",
+    "module": "common",
+    "icon": "http://engine-test.qixincha.com/favicon.ico",
+    "host": "",
+    "sort": 0
+  },
+  {
+    "id": "1737601873992914000",
+    "name": "百度一下",
+    "url": "http://www.baidu.com",
+    "description": "百度一下",
+    "module": "common",
+    "icon": "㊙️",
+    "host": "",
+    "sort": 0
+  }
+]
