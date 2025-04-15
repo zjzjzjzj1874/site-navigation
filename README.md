@@ -11,6 +11,9 @@
 - 站点搜索：支持按名称和描述搜索站点
 - 一键复制Host：快速复制站点的Host配置
 
+## 效果展示
+![alt text](./static/img/image.png)
+
 ## 部署指南
 
 ### Docker部署
